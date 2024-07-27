@@ -81,14 +81,14 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <h1 id="测试一下"><a href="#测试一下" class="headerlink" title="测试一下"></a>测试一下</h1><p><del>能不能让我快点掌握hexo啊</del></p>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;hellomworld!&quot;</span> &lt;&lt; endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+        <p>$\lim_{a\rightarrow x_0}&#x3D;1$</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="meta">#<span class="keyword">define</span> N 10005</span></span><br><span class="line"><span class="type">int</span> pa[N];</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">init</span><span class="params">(<span class="type">int</span> n)</span></span>&#123;<span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt;= n; i ++ ) pa[i] = i; &#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">search</span><span class="params">(<span class="type">int</span> x)</span></span>&#123; <span class="keyword">return</span> pa[x] == x ? x : <span class="built_in">search</span>(pa[x]);&#125;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">merge</span><span class="params">(<span class="type">int</span> a, <span class="type">int</span> b)</span> </span>&#123; pa[<span class="built_in">search</span>(a)] = pa[<span class="built_in">search</span>(b)]; &#125;</span><br><span class="line"><span class="function"><span class="type">bool</span> <span class="title">judge</span><span class="params">(<span class="type">int</span> a, <span class="type">int</span> b)</span> </span>&#123; <span class="keyword">return</span> pa[<span class="built_in">search</span>(a)] == pa[<span class="built_in">search</span>(b)]; &#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;hello,world!&quot;</span> &lt;&lt; endl;</span><br><span class="line">    <span class="type">int</span> a, b;</span><br><span class="line">    cin &gt;&gt; a &gt;&gt; b;</span><br><span class="line">    <span class="built_in">init</span>(<span class="number">1000</span>);</span><br><span class="line">    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://g500mydream.github.io/2024/07/27/%E5%BE%AE%E7%A7%AF%E5%88%86%E7%AC%94%E8%AE%B0/" data-id="clz42xv620001osv7fbtq6lh9" data-title="" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      <a data-url="http://g500mydream.github.io/2024/07/27/%E5%BE%AE%E7%A7%AF%E5%88%86%E7%AC%94%E8%AE%B0/" data-id="clz43awcz0001ssv79x7n45nu" data-title="" class="article-share-link"><span class="fa fa-share">Share</span></a>
       
       
       
@@ -139,7 +139,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://g500mydream.github.io/2024/07/27/hello-world/" data-id="clz42xv5w0000osv7cvlw2coo" data-title="Hello World" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      <a data-url="http://g500mydream.github.io/2024/07/27/hello-world/" data-id="clz43awct0000ssv73vxy3kaz" data-title="Hello World" class="article-share-link"><span class="fa fa-share">Share</span></a>
       
       
       
